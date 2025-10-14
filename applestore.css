@@ -1,0 +1,81 @@
+body {
+  width: 1920px;
+  height: 100vh;
+  margin: 0;
+}
+#layout {
+  margin: 10px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.deed {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  font-size: 12px;
+  background-color: white;
+}
+.donate {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  font-size: 14px;
+  width: 100%;
+}
+.page1 {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  width: 100%;
+  height: 585px;
+}
+.bichig {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.avgai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 556px;
+  height: 100px;
+}
+.hamt {
+  display: flex;
+  flex-direction: column;
+  height: 44px;
+  gap: 4px;
+}
+.tusdaa {
+  display: flex;
+  flex-direction: column;
+}
+.giftbichig {
+  font-size: 44px;
+  font-weight: 600;
+}
+.store {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #0090f7, #ba62fc, #f2416b);
+}
+.magic {
+  color: #6e6e73;
+}
