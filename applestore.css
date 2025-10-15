@@ -4,10 +4,11 @@ body {
   margin: 0;
 }
 #layout {
-  margin: 10px;
   gap: 12px;
   display: flex;
   flex-direction: column;
+  margin: 10px;
+  background-color: grey;
 }
 .header {
   display: flex;
@@ -36,19 +37,29 @@ body {
   font-size: 14px;
   width: 100%;
 }
+.background {
+  width: 100%;
+  height: 75px;
+  background-image: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .page1 {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
+  /* align-items: space-between; */
   gap: 20px;
   width: 100%;
-  height: 585px;
 }
 .bichig {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-left: 140px;
+  padding-right: 140px;
+  row-gap: 16px;
+  margin-bottom: 60px;
 }
 .avgai {
   display: flex;
@@ -56,16 +67,22 @@ body {
   align-items: center;
   width: 556px;
   height: 100px;
+  gap: 15px;
 }
 .hamt {
   display: flex;
   flex-direction: column;
   height: 44px;
   gap: 4px;
+  font-size: 14px;
+  justify-content: space-between;
 }
 .tusdaa {
   display: flex;
   flex-direction: column;
+  height: 44px;
+  gap: 4px;
+  font-size: 14px;
 }
 .giftbichig {
   font-size: 44px;
@@ -78,4 +95,144 @@ body {
 }
 .magic {
   color: #6e6e73;
+}
+.accessories {
+  display: flex;
+  padding-inline: 140px;
+  width: 1896px;
+  height: 146px;
+  gap: 12px;
+  margin-bottom: 60px;
+}
+.tag {
+  width: 120px;
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.zurag {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.title {
+  font-size: 14px;
+  color: black;
+  margin-top: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.page2 {
+  width: 100%;
+  height: 558px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 140px;
+  padding-right: 140px;
+  gap: 20px;
+}
+.bichig2 {
+  font-size: 24px;
+  font-weight: 700;
+  gap: 4px;
+  width: 467px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.gadar {
+  width: 400px;
+  padding: 30px;
+  display: flex;
+  flex-shrink: 0;
+  cursor: pointer;
+  row-gap: 12px;
+  border-radius: 18px;
+  flex-direction: column;
+  scroll-snap-align: start;
+  background-image: center;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.08) 4px 8px 12px 0px;
+}
+.scroll {
+  width: 100%;
+  display: flex;
+  height: 500px;
+  column-gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.name {
+  font-size: 26px;
+  font-weight: 700;
+}
+.name1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+}
+.utga {
+  font-size: 18px;
+}
+.utga1 {
+  font-size: 18px;
+  color: white;
+}
+.price {
+  font-size: 18px;
+}
+.price1 {
+  font-size: 18px;
+  color: white;
+}
+.page3 {
+  width: 100%;
+  height: 558px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 140px;
+  padding-right: 140px;
+  gap: 20px;
+}
+.utgap3 {
+  color: #b64400;
+  font-size: 12px;
+}
+.ner {
+  font-size: 18px;
+  font-weight: 700;
+}
+.une {
+  font-size: 18px;
+  margin-top: 32px;
+}
+.namep {
+  font-size: 26px;
+  width: 197px;
+  height: 66px;
+  font-weight: 700;
+}
+.scroll2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  column-gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.neeg {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 313px;
+  height: 500px;
+  border-radius: 50px;
+}
+.hoyr {
+  width: 230px;
+  height: 230px;
 }
