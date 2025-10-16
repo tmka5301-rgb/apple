@@ -7,8 +7,8 @@ body {
   gap: 12px;
   display: flex;
   flex-direction: column;
-  margin: 10px;
-  background-color: grey;
+  margin-top: 15px;
+  background-color: rgb(237, 184, 184);
 }
 .header {
   display: flex;
@@ -30,15 +30,15 @@ body {
 .donate {
   display: flex;
   justify-content: center;
-  margin: auto;
   display: flex;
   align-items: center;
   margin-top: 32px;
   font-size: 14px;
   width: 100%;
+  text-align: center;
 }
 .background {
-  width: 100%;
+  /* width: 100%; */
   height: 75px;
   background-image: center;
   background-size: cover;
@@ -49,7 +49,7 @@ body {
   flex-direction: column;
   /* align-items: space-between; */
   gap: 20px;
-  width: 100%;
+  /* width: 100%; */
 }
 .bichig {
   display: flex;
@@ -125,12 +125,12 @@ body {
   text-align: center;
 }
 .page2 {
-  width: 100%;
+  /* width: 100%; */
   height: 558px;
   display: flex;
   flex-direction: column;
   padding-left: 140px;
-  padding-right: 140px;
+  padding-right: 10px;
   gap: 20px;
 }
 .bichig2 {
@@ -189,12 +189,11 @@ body {
   color: white;
 }
 .page3 {
-  width: 100%;
-  height: 558px;
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   padding-left: 140px;
-  padding-right: 140px;
+  padding-right: 10px;
   gap: 20px;
 }
 .utgap3 {
@@ -216,7 +215,7 @@ body {
   font-weight: 700;
 }
 .scroll2 {
-  width: 100%;
+  width: 500px;
   display: flex;
   flex-direction: row;
   height: 500px;
@@ -225,14 +224,82 @@ body {
   scroll-snap-type: x mandatory;
 }
 .neeg {
+  width: 100%;
   display: flex;
+  /* height: 500px; */
+  column-gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
   flex-direction: row;
+}
+.neg {
+  display: flex;
+  flex-direction: column;
   background-color: white;
+  justify-content: center;
+  align-items: center;
   width: 313px;
-  height: 500px;
+  /* height: 500px; */
   border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.08) 4px 8px 12px 0px;
+  flex-shrink: 0;
 }
 .hoyr {
   width: 230px;
   height: 230px;
+}
+
+.zyrag {
+  width: 400px;
+  height: 500px;
+  background-image: center;
+  background-size: cover;
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 26px;
+  border-radius: 50px;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+}
+.span {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  gap: 10px;
+  width: 100%;
+  padding-left: 20px;
+}
+.page4 {
+  padding-left: 140px;
+  padding-right: 10px;
+}
+.bichig3 {
+  height: 34px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.zrg {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.zurg {
+  width: 12px;
+  height: 12px;
+  display: flex;
+}
+.page5 {
+  padding-left: 140px;
+  padding-right: 10px;
+}
+.page6 {
+  padding-left: 140px;
+  padding-right: 10px;
+}
+.page7 {
+  padding-left: 140px;
+  padding-right: 10px;
 }
