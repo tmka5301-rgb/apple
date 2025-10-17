@@ -47,9 +47,7 @@ body {
 .page1 {
   display: flex;
   flex-direction: column;
-  /* align-items: space-between; */
   gap: 20px;
-  /* width: 100%; */
 }
 .bichig {
   display: flex;
@@ -57,13 +55,13 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-left: 140px;
-  padding-right: 140px;
+  padding-right: 10px;
   row-gap: 16px;
   margin-bottom: 60px;
 }
 .avgai {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 556px;
   height: 100px;
@@ -72,7 +70,6 @@ body {
 .hamt {
   display: flex;
   flex-direction: column;
-  height: 44px;
   gap: 4px;
   font-size: 14px;
   justify-content: space-between;
@@ -181,9 +178,6 @@ body {
   font-size: 18px;
   color: white;
 }
-.price {
-  font-size: 18px;
-}
 .price1 {
   font-size: 18px;
   color: white;
@@ -213,6 +207,8 @@ body {
   width: 197px;
   height: 66px;
   font-weight: 700;
+  padding-left: 20px;
+  padding-top: 50px;
 }
 .scroll2 {
   width: 500px;
@@ -274,6 +270,7 @@ body {
 .page4 {
   padding-left: 140px;
   padding-right: 10px;
+  gap: 20px;
 }
 .bichig3 {
   height: 34px;
@@ -302,4 +299,71 @@ body {
 .page7 {
   padding-left: 140px;
   padding-right: 10px;
+}
+.garchig {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 10px;
+}
+.jijigtitle {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #6e6e73;
+  padding: 10px;
+}
+.garchig2 {
+  font-size: 17px;
+  font-weight: 400;
+  padding: 10px;
+}
+.garchigg {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 10px;
+}
+.hamtda {
+  width: 313px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: white;
+  border-radius: 50px;
+  padding: ;
+  flex-shrink: 0;
+  padding: 10px;
+}
+.p5-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  flex-direction: column;
+  display: flex;
+  padding-left: 140px;
+  padding-right: 10px;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.f2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 10px;
+}
+.f-1 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.f2-2 {
+  font-size: 14px;
+  background-color: none;
+  border: 1.5px, solid black;
+  border-radius: 99px;
+  padding: 10px;
 }

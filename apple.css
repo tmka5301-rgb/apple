@@ -38,7 +38,7 @@ header {
   gap: 30px;
 }
 .gold {
-  width: 100%;
+  /* width: 100%; */
   height: 692px;
   background-image: url(./ec3175b4a85620366114b7dc1d62789aa36c0536.jpg);
   display: flex;
@@ -52,8 +52,8 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
-  margin-bottom: 350px;
+  align-items: flex-start;
+  padding-bottom: 350px;
   gap: 20px;
 }
 .arvanzurgaa {
@@ -73,13 +73,13 @@ header {
 .buy {
   color: #0071e3;
   border-radius: 50px;
-  background-color: white;
-  width: 68px;
+  background-color: transparent;
+  width: 88px;
   height: 44px;
-  border: none;
+  border: 1px, solid #2997ff;
 }
 .purple {
-  width: 100%;
+  /* width: 100%; */
   height: 692px;
   background-image: url(./purple.jpg);
   display: flex;
@@ -95,7 +95,7 @@ header {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 350px;
+  padding-bottom: 350px;
   gap: 20px;
 }
 .learn2 {
@@ -107,16 +107,16 @@ header {
   border: none;
 }
 .buy2 {
-  background-color: black;
+  background-color: transparent;
   color: white;
   border-radius: 50px;
   width: 68px;
   height: 44px;
-  border: none;
+  border: 1px, solid white;
 }
 .gift {
   background-image: url(./039920404089e184b9a9cd5998cf7e5a53e3a3d4.jpg);
-  width: 100%;
+  /* width: 100%; */
   height: 692px;
   display: flex;
   justify-content: center;
@@ -140,8 +140,8 @@ header {
   gap: 10px;
 }
 .duuruv {
-  width: 100%;
-  height: 1765px;
+  /* width: 100%; */
+  /* height: 1765px; */
   display: flex;
   justify-content: center;
   background-position: center;
@@ -233,15 +233,10 @@ header {
   margin: auto;
 }
 .ungu {
-  background: linear-gradient(
-    90.43deg,
-    #0090f7 0%,
-    #ba62fc 33.33%,
-    #f2416b 66.67%,
-    #f55600 100%
-  );
-  margin-bottom: 20px;
-  border: none;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #0090f7, #ba62fc, #f2416b);
+  margin-bottom: 50px;
 }
 .sda {
   display: flex;
@@ -251,8 +246,8 @@ header {
   gap: 20px;
 }
 .page5 {
-  margin-top: 150px;
-  width: 100%;
+  /* margin-top: 150px; */
+  /* width: 100%; */
   display: flex;
   column-gap: 15px;
   overflow-x: scroll;
@@ -309,4 +304,46 @@ header {
   border-radius: 50%;
   background-color: #0000006b;
   transition: opacity ease 250ms;
+}
+/* .page7 {
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+  background-image: center;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+} */
+.page7 {
+  display: flex;
+  column-gap: 15px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  background-image: center;
+  background-size: cover;
+}
+.zurag7 {
+  width: 417px;
+  height: 236px;
+}
+.doloo1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 417px;
+  height: 236px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+.doloo {
+  width: 417px;
+  height: 236px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
