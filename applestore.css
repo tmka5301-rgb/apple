@@ -67,6 +67,11 @@ body {
   height: 100px;
   gap: 15px;
 }
+.tng {
+  width: 45px;
+  height: 45px;
+  padding-bottom: 25px;
+}
 .hamt {
   display: flex;
   flex-direction: column;
