@@ -277,6 +277,9 @@ body {
   padding-right: 10px;
   gap: 20px;
 }
+.none {
+  display: none;
+}
 .bichig3 {
   height: 34px;
   font-size: 24px;
@@ -346,6 +349,7 @@ body {
   gap: 15px;
   align-items: center;
   justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 4px 8px 12px 0px;
 }
 footer {
   flex-direction: column;

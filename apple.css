@@ -25,6 +25,23 @@ header {
   font-size: 12px;
   background-color: white;
 }
+.ungu2 {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+.navi {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.bhgu {
+  display: none;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+}
 .donate {
   display: flex;
   justify-content: center;
@@ -47,12 +64,13 @@ header {
   background-size: cover;
   color: white;
   align-items: center;
+  text-align: center;
 }
 .page1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding-bottom: 350px;
   gap: 20px;
 }
@@ -138,6 +156,29 @@ header {
   flex-direction: column;
   margin-bottom: 50px;
   gap: 10px;
+}
+.watch {
+  font-size: 25px;
+  font-weight: 700;
+}
+.none {
+  display: none;
+}
+.none1 {
+  display: none;
+}
+.none2 {
+  display: none;
+}
+.none3 {
+  display: none;
+}
+.algabol {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  text-align: center;
 }
 .duuruv {
   /* width: 100%; */
@@ -238,6 +279,13 @@ header {
   background-image: linear-gradient(90deg, #0090f7, #ba62fc, #f2416b);
   margin-bottom: 50px;
 }
+.ungu2 {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #0090f7, #ba62fc, #f2416b);
+  margin-bottom: 50px;
+  display: none;
+}
 .sda {
   display: flex;
   justify-content: center;
@@ -268,6 +316,36 @@ header {
   display: flex;
   justify-content: start;
   align-items: end;
+}
+#item1 {
+  background-image: url(./napoleon.jpg);
+}
+#item2 {
+  background-image: url(./bad-monkey.jpg);
+}
+#item3 {
+  background-image: url(./instigators.jpg);
+}
+#item4 {
+  background-image: url(./k-pop-idols.jpg);
+}
+#item5 {
+  background-image: url(./season-pass.jpg);
+}
+#item6 {
+  background-image: url(./pressumed-innocent.jpg);
+}
+#item7 {
+  background-image: url(./pachinko.jpg);
+}
+#item8 {
+  background-image: url(./baseball.jpg);
+}
+#item9 {
+  background-image: url(./lady-in-the-lake.jpg);
+}
+#item10 {
+  background-image: url(./morning-show.jpg);
 }
 .dardag2 {
   background-color: white;
@@ -305,18 +383,6 @@ header {
   background-color: #0000006b;
   transition: opacity ease 250ms;
 }
-/* .page7 {
-  color: white;
-  flex-shrink: 0;
-  font-size: 20px;
-  position: relative;
-  scroll-snap-align: center;
-  background-image: center;
-  background-size: cover;
-  display: flex;
-  justify-content: start;
-  align-items: end;
-} */
 .page7 {
   display: flex;
   column-gap: 15px;
@@ -346,4 +412,297 @@ header {
   height: 236px;
   padding-left: 20px;
   padding-right: 20px;
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  body {
+    width: 1024px;
+  }
+  .deed {
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .navi {
+    display: none;
+  }
+  .bhgu {
+    display: flex;
+  }
+  .deed {
+    justify-content: space-between;
+  }
+  .gold {
+    background-image: url(../iphone-16-pro-tablet.png);
+  }
+  .purple {
+    background-image: url(../iphone-16-tablet2.png);
+  }
+  .gift {
+    background-image: url(../tablet3.jpg);
+    /* display: none; */
+  }
+  .page4 {
+    width: 100%;
+  }
+  .duuruv {
+  }
+  .neg {
+    background-image: url(./tablet4-1.jpg);
+    width: 49%;
+  }
+  .hoyr {
+    background-image: url(./tablet4-2.jpg);
+    width: 49%;
+  }
+  .gurav {
+    background-image: url(./tablet4-3.jpg);
+    width: 49%;
+  }
+  .duruv {
+    background-image: url(./tablet4-4.png);
+    width: 49%;
+  }
+  .tav {
+    background-image: url(./tablet4-5.jpg);
+    width: 49%;
+  }
+  .zurgaa {
+    background-image: url(./tablet4-6.jpg);
+    width: 49%;
+  }
+  .page5 {
+  }
+  .none {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 400px;
+    gap: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .none1 {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding-bottom: 350px;
+  }
+  .none2 {
+    display: flex;
+    padding-top: 300px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+  .algabol {
+    display: none;
+  }
+  .ungu {
+    display: none;
+  }
+  .sda {
+    display: none;
+  }
+  .none3 {
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    padding-left: 20px;
+    text-align: center;
+    gap: 20px;
+  }
+  .page5 {
+    width: 100%;
+  }
+
+  .scroll {
+    width: 689px;
+    height: 368px;
+  }
+
+  #item1 {
+    background-image: url(./tablet5-1.jpg);
+  }
+  #item2 {
+    background-image: url(./tablet5-2.jpg);
+  }
+  #item3 {
+    background-image: url(./tablet5-3.jpg);
+  }
+  #item4 {
+    background-image: url(./tablet5-4.jpg);
+  }
+  #item5 {
+    background-image: url(./tablet5-5.jpg);
+  }
+  #item6 {
+    background-image: url(./tablet5-6.jpg);
+  }
+  #item7 {
+    background-image: url(./tablet5-7.jpg);
+  }
+  #item8 {
+    background-image: url(./tablet5-18.jpg);
+  }
+  #item9 {
+    background-image: url(./tablet5-9.jpg);
+  }
+  .page7 {
+    width: 100%;
+  }
+  .ungu2 {
+    display: flex;
+    /* padding-top: 20px; */
+  }
+}
+@media screen and (max-width: 767px) {
+  body {
+    width: 767px;
+  }
+  .deed {
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .navi {
+    display: none;
+  }
+  .bhgu {
+    display: flex;
+  }
+  .gold {
+    background-image: url(mobile1.jpg);
+  }
+  .page1 {
+    display: flex;
+    justify-content: end;
+    padding-top: 700px;
+  }
+  .page2 {
+    padding-bottom: 450px;
+  }
+  .purple {
+    background-image: url(mobile2.jpg);
+  }
+  .gift {
+    background-image: url(mobile3.jpg);
+  }
+  .page4 {
+    width: 100%;
+  }
+  .neg {
+    background-image: url(mobile4.jpg);
+    align-items: space-between;
+  }
+  .hoyr {
+    background-image: url(mobile5.jpg);
+  }
+  .gurav {
+    background-image: url(mobile6.jpg);
+  }
+  .duruv {
+    background-image: url(mobile7.png);
+  }
+  .tav {
+    background-image: url(mobile8.jpg);
+  }
+  .zurgaa {
+    background-image: url(mobile9.jpg);
+  }
+  .page5 {
+    width: 100%;
+  }
+  .scroll {
+    width: 70%;
+    height: 747px;
+  }
+  #item1 {
+    background-image: url(mobile11.jpg);
+  }
+  #item2 {
+    background-image: url(mobile12.jpg);
+  }
+  #item3 {
+    background-image: url(mobile13.jpg);
+  }
+  #item4 {
+    background-image: url(mobile14.jpg);
+  }
+  #item5 {
+    background-image: url(mobile15.jpg);
+  }
+  #item6 {
+    background-image: url(mobile16.jpg);
+  }
+  #item7 {
+    background-image: url(mobile17.jpg);
+  }
+  #item8 {
+    background-image: url(mobile18.jpg);
+  }
+  .ungu {
+    display: none;
+  }
+  .ungu2 {
+    display: flex;
+  }
+  #item9,
+  #item10 {
+    display: none;
+  }
+  .none {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 380px;
+    gap: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .none1 {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding-bottom: 350px;
+  }
+  .none2 {
+    display: flex;
+    padding-top: 300px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+  .algabol {
+    display: none;
+  }
+  .sda {
+    display: none;
+  }
+  .none3 {
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    padding-left: 20px;
+    text-align: center;
+    gap: 20px;
+  }
+  .none0 {
+    margin-top: 50px;
+  }
 }
