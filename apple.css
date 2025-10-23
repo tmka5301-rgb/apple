@@ -286,7 +286,7 @@ header {
   margin-bottom: 50px;
   display: none;
 }
-.sda {
+.sad {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -432,13 +432,13 @@ header {
     justify-content: space-between;
   }
   .gold {
-    background-image: url(../iphone-16-pro-tablet.png);
+    background-image: url(./tablet1.jpg);
   }
   .purple {
-    background-image: url(../iphone-16-tablet2.png);
+    background-image: url(tablet2.jpg);
   }
   .gift {
-    background-image: url(../tablet3.jpg);
+    background-image: url(tablet33.jpg);
     /* display: none; */
   }
   .page4 {
@@ -506,7 +506,7 @@ header {
   .ungu {
     display: none;
   }
-  .sda {
+  .sad {
     display: none;
   }
   .none3 {
@@ -689,7 +689,7 @@ header {
   .algabol {
     display: none;
   }
-  .sda {
+  .sad {
     display: none;
   }
   .none3 {
